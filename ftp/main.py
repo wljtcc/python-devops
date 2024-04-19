@@ -22,7 +22,7 @@ async def ftpDownload(fileDownload):
 
     # Conectando-se ao servidor FTP
     ftps = FTP_TLS(host=FTP_HOST, user=FTP_USER, passwd=FTP_PASS)
-    ftps.set_debuglevel(0)
+    ftps.set_debuglevel(1)
     ftps.set_pasv(True)
     ftps.prot_p()
 
