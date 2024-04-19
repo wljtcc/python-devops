@@ -1,0 +1,3 @@
+AWS_REGION = 'us-east-2'
+AWS_PROFILE_NAME = 'aleteia.textract'
+AWS_BUCKET='aleteia-textract'
